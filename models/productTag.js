@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: "ProductTag",
-      tableName: "ProductTags", // Tên bảng trung gian
+      tableName: "product_tags",
       freezeTableName: true,
       timestamps: true,
     },
