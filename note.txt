@@ -1,0 +1,34 @@
+1. GET /api/tours phân trang . Sửa gọi FE để gọi endpoint này thay vì GET /api/tours?page=1&categoryId=2 (ưu tiên)
+
+2. Vô trang chi tiết sẽ chọn mặc định biến thể đầu tiên (ưu tiên)
+
+3. Thanh toán online bằng stripe (ưu tiên)
+
+4. Bổ sung thêm specail note vào database
+
+6. Bổ sung thêm thông tin của 1 order trong slice order (gồm đầy đủ thông tin, ghi chú đi kèm) | passenger
+
+7. Lưu session vào databse khi đăng nhập
+
+8. Cập nhật mật khẩu mới, đổi thông tin, bỏ phần vai trò 
+
+9. Biểu đồ thống kế theo tháng tuần ngày, hình tròn (Đơn hàng trong nước bao nhiêu % | Ngoài nước %), cột, dạng line | Danh sách 5 tour bán chạy nhất, 5 tour bán chậm nhất | Danh sách đơn hàng gần đây | 
+
+10. Bổ sung cột STT vào người dùng | Gộp vai trò với thao tác | Sửa lại cột thao tác xóa mềm (k xóa trong cơ sở dữ liệu chỉ ẩn, người dùng đó k vào được nữa)
+
+11. Bổ sung cột STT vào quản lý tour | Phân trang | Xóa slug | Sửa được trực tiếp biến thể (bổ sung toàn bộ trong admin)
+
+12. Sửa ảnh thành ảnh của server nằm trong upload tours (ưu tiên)
+
+13. Trong database ảnh http://localhost:3000/uploads/tours/tour-1777131552664-501348978.jpeg chỉ lưu sau phần 3000/ (ưu tiên) | Cập nhật database cũ
+
+14. Không xóa dữ liệu trong database (tour, user, danh mục) chỉ được phép ẩn thôi vì nó ảnh hưởng tới các dữ liệu khác trong database
+
+15. TẠo thêm Quản lý danh mục
+
+16. Xóa dán url, chỉ lấy upload thôi
+C1: Bỏ luôn thumb
+C2: Lấy ảnh ở tour-image bỏ qua
+
+
+16. Bổ sung thêm thao tác trên đơn hàng  như chờ vận chuyển, vận chuyển, đã giao hàng thành công

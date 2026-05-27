@@ -1,0 +1,92 @@
+/* CSS tổng thể lịch */
+.react-datepicker {
+  border: 1px solid #0a3f7e;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+/* Header */
+.react-datepicker__header {
+  background-color: #0a3f7e;
+  border-bottom: none;
+  padding: 8px 0;
+}
+
+/* Tháng + năm */
+.react-datepicker__current-month {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Mũi tên */
+.react-datepicker__navigation-icon::before {
+  border-color: white;
+}
+
+/* Thứ trong tuần */
+.react-datepicker__day-names {
+  margin-top: 6px;
+}
+
+.react-datepicker__day-name {
+  color: #333;
+  font-weight: 500;
+  width: 36px;
+}
+
+/* Ô ngày */
+.react-datepicker__day {
+  width: 36px;
+  line-height: 36px;
+  margin: 2px;
+  border: 1px solid #e5e7eb;
+  border-radius: 0;
+}
+
+/* Ngày bị disable */
+.react-datepicker__day--disabled {
+  color: #cbd5e1;
+}
+
+/* Hover */
+.react-datepicker__day:hover {
+  background-color: #e6f2ff;
+}
+
+/* Ngày được chọn */
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #dbefff;
+  color: #0a3f7e;
+  font-weight: 600;
+}
+
+/* Hôm nay */
+.react-datepicker__day--today {
+  border: 1px solid #0a3f7e;
+  font-weight: 600;
+}
+
+/* Dropdown tháng & năm */
+.react-datepicker__month-select,
+.react-datepicker__year-select {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+/* Option bên trong (khi mở dropdown) */
+.react-datepicker__month-select option,
+.react-datepicker__year-select option {
+  color: #0a3f7e; /* để dễ đọc khi dropdown mở */
+}
+
+.react-datepicker__month-select,
+.react-datepicker__year-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
