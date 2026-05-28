@@ -1,0 +1,5 @@
+npm i cookie-parser
+
+npm i express-session
+
+npm i express-mysql-session
